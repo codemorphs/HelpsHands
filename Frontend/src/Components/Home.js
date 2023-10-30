@@ -147,34 +147,6 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <div class="sec-title">
-              <span class="title">Our Future Goal</span>
-              <h2>We want to lead in innovation & Technology</h2>
-            </div>
-            <div class="text">
-              We works on UI/UX and functionality as well so that a plugins
-              comes with proper stucture & stunning looks which suits to your
-              web app & website.
-            </div>
-            <div class="text">
-              We take a small toolkit here and ride it well so that it is fit
-              for your use. One who performs well and looks even better.
-            </div>
-            <div class="text">
-              Here we are trying to give you all kinds of technical content,
-              whether it is related to designing or functionality. We are
-              creating content on a lot of languages and will continue to make
-              it free of cost even if you use it without any problem. Which is a
-              very important thing.
-            </div>
-            <div class="text">
-              Here you can also share the content you create, if our technical
-              team likes it, then we will also share it on our blog.
-            </div>
-            <div class="text">
-              In the end, I would say keep visiting our website and enjoy the
-              quality content.
-            </div>
           </div>
         </section>
       </main>
