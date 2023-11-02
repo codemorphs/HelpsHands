@@ -1,12 +1,13 @@
 import React from "react";
 import "./Navbar.css";
+import logo from '../../Assets/logo-removebg-preview.png';
 
 function Navbar() {
   return (
     <nav class="navbar">
       <div class="navbar-logo">
         <a href="#">
-          <img src="./clinicLogo.jpeg" alt="Logo" />
+          <img className="Logo" src={logo} alt="Logo" />
         </a>
       </div>
       <div class="navbar-links">

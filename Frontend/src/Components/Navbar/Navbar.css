@@ -49,6 +49,11 @@ body, ul {
     color: #fff; /* Change the color as needed */
 }
 
+.navbar-logo img{
+    width: 50px;
+    height: 50px;
+}
+
 /* Style the button on the right */
 .navbar-button a {
     text-decoration: none;
