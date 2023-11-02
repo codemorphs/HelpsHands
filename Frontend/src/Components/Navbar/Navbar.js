@@ -4,32 +4,53 @@ import logo from '../../Assets/logo-removebg-preview.png';
 
 function Navbar() {
   return (
-    <nav class="navbar">
-      <div class="navbar-logo">
-        <a href="#">
+    <div className="navbarClass">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
           <img className="Logo" src={logo} alt="Logo" />
         </a>
-      </div>
-      <div class="navbar-links">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="navbar-button">
-        <a href="#">Make An Appointement</a>
-      </div>
-    </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav middleNavBar">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">About Us</a>
+            <a class="nav-item nav-link" href="#">Services</a>
+            <a class="nav-item nav-link" href="#">Contact Us</a>
+            {/* <button type="button" class="btn btn-primary my-2 my-sm-0">Contact Us</button> */}
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary my-2 my-sm-0 contactUsBtn">Make Appointment</button>
+      </nav>
+    </div>
+
+    // <nav class="navbar">
+    //   <div class="navbar-logo">
+    //     <a href="#">
+    //       <img className="Logo" src={logo} alt="Logo" />
+    //     </a>
+    //   </div>
+    //   <div class="navbar-links">
+    //     <ul>
+    //       <li>
+    //         <a href="#">Home</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">About Us</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">Services</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">Contact</a>
+    //       </li>
+    //     </ul>
+    //   </div>
+    //   <div class="navbar-button">
+    //     <a href="#">Make An Appointement</a>
+    //   </div>
+    // </nav>
   );
 }
 
