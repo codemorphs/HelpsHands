@@ -15,7 +15,7 @@ function Navbar() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">About Us</a>
           </li>
           <li>
             <a href="#">Services</a>
@@ -26,7 +26,7 @@ function Navbar() {
         </ul>
       </div>
       <div class="navbar-button">
-        <a href="#">Contact Us</a>
+        <a href="#">Make An Appointement</a>
       </div>
     </nav>
   );
