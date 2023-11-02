@@ -64,7 +64,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-left: 10px; /* Add margin to the left to separate the button from text */
+  margin-left: 0px; /* Add margin to the left to separate the button from text */
 }
 
 .banner h1 {
@@ -364,7 +364,7 @@ html {
 body {
   margin: 0;
   width: 100%;
-  font-family: "Oswald", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
   font-size: 12pt;
   font-weight: 400;
 }
@@ -497,7 +497,7 @@ font-style: normal;
 font-variant: normal;
 text-rendering: auto;
 line-height: 1.6;
-font-family: "Font Awesome 5 Free";
+/* font-family: "Font Awesome 5 Free"; */
 }
 
 .list-style-one li a:hover{
@@ -661,3 +661,8 @@ transition: all 300ms ease;
 /* .about-section .image-column .video-link .link:hover{
 background-color: #191e34; */
 /* color: #f */
+
+
+#serivceHeadings{
+  font-size: 16px;
+}

@@ -40,8 +40,10 @@
 /* Style the logo on the left */
 /* .navbar-logo a {
     text-decoration: none;
-    color: #fff; 
-} */
+
+    color: #fff; /* Change the color as needed */
+
+/* } */
 
 /* Style the links in the middle */
 /* .navbar-links ul {

@@ -22,6 +22,8 @@ const HomePage = () => {
           </h1>
           <br />
           <h2>PSYCHOLOGICAL HOSPITAL</h2>
+          <br />
+
           <a href="#contact" className="contact-button">
             Contact Us
           </a>
@@ -51,13 +53,12 @@ const HomePage = () => {
                     <img src="/Therapy.jpg" alt="Therapy" />
                   </div>
                   <br />
-                  <h4>Therapy</h4>
-                  <p>
+                  <h5 id="serivceHeadings">Professional Psycho Therapist</h5>
+                  {/* <p>
                     Psychologists can provide a variety of therapies to help
                     people with mental health problems. Some common types of
-                    therapy include cognitive-behavioral therapy (CBT),
-                    interpersonal therapy (IPT), and psychodynamic therapy.
-                  </p>
+                    therapy include cognitive-behavioral therapy
+                  </p> */}
                 </div>
               </div>
 
@@ -67,13 +68,13 @@ const HomePage = () => {
                     <img src="/counceling.jpg" alt="Counseling" />
                   </div>
                   <br />
-                  <h4>Counseling</h4>
-                  <p>
+                  <h5 id="serivceHeadings">Educational Counsellor</h5>
+                  {/* <p>
                     Psychologists can also provide counseling to help people
                     with a variety of personal and interpersonal challenges,
                     such as grief and loss, relationship problems, and stress
                     management.
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -83,13 +84,47 @@ const HomePage = () => {
                     <img src="/Medication.jpg" alt="Medication Management" />
                   </div>
                   <br />
-                  <h4>Medication Management</h4>
-                  <p>
+                  <h5 id="serivceHeadings">Shadow Teacher</h5>
+                  {/* <p>
                     Psychologists can work with psychiatrists to manage
                     medication for mental health conditions. This may involve
                     prescribing new medications, adjusting dosages, or
                     monitoring side effects.
-                  </p>
+                  </p> */}
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item">
+                  <div class="service-icon">
+                    <img src="/Medication.jpg" alt="Medication Management" />
+                  </div>
+                  <br />
+                  <h5 id="serivceHeadings">Elder Care Assistant</h5>
+                  {/* <p>
+                    Psychologists can work with psychiatrists to manage
+                    medication for mental health conditions. This may involve
+                    prescribing new medications, adjusting dosages, or
+                    monitoring side effects.
+                  </p> */}
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item">
+                  <div class="service-icon">
+                    <img src="/Medication.jpg" alt="Medication Management" />
+                  </div>
+                  <br />
+                  <h5 id="serivceHeadings">
+                    Special Needs Educational Teacher
+                  </h5>
+                  {/* <p>
+                    Psychologists can work with psychiatrists to manage
+                    medication for mental health conditions. This may involve
+                    prescribing new medications, adjusting dosages, or
+                    monitoring side effects.
+                  </p> */}
                 </div>
               </div>
             </div>
