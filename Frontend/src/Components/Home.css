@@ -128,6 +128,7 @@ padding-bottom: 20px;
 position: relative;
 text-transform: capitalize;
 z-index: 1;
+font-size: 20px;
 }
 
 .site-heading h4::before {

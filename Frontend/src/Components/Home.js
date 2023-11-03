@@ -50,7 +50,7 @@ const HomePage = () => {
               <div class="col-md-4 col-sm-6 equal-height">
                 <div class="item">
                   <div class="service-icon">
-                    <img src="/Therapy.jpg" alt="Therapy" />
+                    <img src="residentialTreatement.png" alt="Therapy" />
                   </div>
                   <br />
                   <h5 id="serivceHeadings">Residential Treatment</h5>
@@ -65,7 +65,7 @@ const HomePage = () => {
               <div class="col-md-4 col-sm-6 equal-height">
                 <div class="item">
                   <div class="service-icon">
-                    <img src="/counceling.jpg" alt="Counseling" />
+                    <img src="PsychiatricTreatment.jpeg" alt="Counseling" />
                   </div>
                   <br />
                   <h5 id="serivceHeadings">Psychiatric Treatment</h5>
@@ -81,7 +81,7 @@ const HomePage = () => {
               <div class="col-md-4 col-sm-6 equal-height">
                 <div class="item">
                   <div class="service-icon">
-                    <img src="/Medication.jpg" alt="Medication Management" />
+                    <img src="counselling.avif" alt="Medication Management" />
                   </div>
                   <br />
                   <h5 id="serivceHeadings">Counseling</h5>
@@ -97,7 +97,10 @@ const HomePage = () => {
               <div class="col-md-4 col-sm-6 equal-height">
                 <div class="item">
                   <div class="service-icon">
-                    <img src="/Medication.jpg" alt="Medication Management" />
+                    <img
+                      src="BehavioralTherapy.jpeg"
+                      alt="Medication Management"
+                    />
                   </div>
                   <br />
                   <h5 id="serivceHeadings">Behavioral Therapy</h5>
@@ -113,7 +116,7 @@ const HomePage = () => {
               <div class="col-md-4 col-sm-6 equal-height">
                 <div class="item">
                   <div class="service-icon">
-                    <img src="/Medication.jpg" alt="Medication Management" />
+                    <img src="training.jpeg" alt="Medication Management" />
                   </div>
                   <br />
                   <h5 id="serivceHeadings">
@@ -167,14 +170,14 @@ const HomePage = () => {
               <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column wow fadeInLeft">
                   <div class="author-desc">
-                    <h2>Rahul Kumar Yadav</h2>
-                    <span>Web Developer</span>
+                    <h2>Thaaru Paranavithana</h2>
+                    <span>Clinical Psychologist</span>
                   </div>
                   <figure class="image-1">
                     <a href="#" class="lightbox-image" data-fancybox="images">
                       <img
                         title="Rahul Kumar Yadav"
-                        src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg"
+                        src="director.jpg"
                         alt=""
                       />
                     </a>
