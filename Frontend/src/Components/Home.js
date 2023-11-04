@@ -140,17 +140,28 @@ const HomePage = () => {
               <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                 <div class="inner-column">
                   <div class="sec-title">
-                    <span class="title">About Css3transition</span>
-                    <h2>We are Creative Tech Enthusiast working since 2015</h2>
+                    {/* <span class="title">About Css3transition</span> */}
+                    <h3 id="secTitle1">
+                      Empowering Minds, Embracing Change: Your Journey to Inner
+                      Peace
+                    </h3>
                   </div>
                   <div class="text">
-                    I am Rahul Yaduvanshi works at Css3 Transition since last 3
-                    years. We are here to provide touch notch solution for your
-                    website or web application that helps you to make your
-                    website look attractive & efficient in handling by creating
-                    usefull plugins thats you need.
+                    Our hospital is a distinguished private healthcare
+                    institution committed to advancing mental health and
+                    psychological well-being. With a focus on providing premium
+                    care and support, this hospital offers a wide spectrum of
+                    services, including inpatient and outpatient rehabilitation,
+                    counseling, and psychotherapy. The dedicated team of
+                    professionals at The Helping Hand Psychological Hospital
+                    delivers personalized treatment and therapies, ensuring that
+                    each patient's unique needs are met. With a strong emphasis
+                    on confidentiality and comfort, the hospital strives to
+                    create a nurturing environment for individuals seeking
+                    expert mental health care in a private and compassionate
+                    setting.
                   </div>
-                  <div class="text">
+                  {/* <div class="text">
                     We are here to serve you next level tutorial that currently
                     in trend to match you with your expertise. Css3 transition
                     is a learning website. where you can find many good quality
@@ -158,10 +169,10 @@ const HomePage = () => {
                     plugins. here we are using html, html5, css, css3, jquery &
                     javascript along with inspirational UI design layout by
                     professionals by using Photoshop and adobe allustrator.
-                  </div>
+                  </div> */}
                   <div class="btn-box">
                     <a href="#" class="theme-btn btn-style-one">
-                      Contact Us
+                      Learn More
                     </a>
                   </div>
                 </div>
