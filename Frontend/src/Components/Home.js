@@ -192,11 +192,67 @@ const HomePage = () => {
         </section>
       </main>
 
-      <footer id="contact">
-        <div className="container">
-          <p>Contact us for an appointment or further information.</p>
-          <p>Email: clinic@example.com</p>
-          <p>Phone: +1 (123) 456-7890</p>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-col">
+            <h4>Our Info</h4>
+            <ul>
+              <li>
+                <a href="#">Company Reg. No. : PV00243655</a>
+              </li>
+              <li>
+                <a href="#">Health Ministry Reg. No. AA 14835</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <a href="#">071 900 1212 / 011 756 1122</a>
+              </li>
+              <li>
+                <a href="#">thehelpinghandhospital18@gmail.com</a>
+              </li>
+              <li>
+                <a href="#">www.helpinghandlk.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Online Shop</h4>
+            <ul>
+              <li>
+                <a href="#">Download</a>
+              </li>
+              <li>
+                <a href="#">Changelog</a>
+              </li>
+              <li>
+                <a href="#">GitHub</a>
+              </li>
+              <li>
+                <a href="#">All Versions</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
