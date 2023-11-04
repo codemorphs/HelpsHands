@@ -193,7 +193,7 @@ const HomePage = () => {
       </main>
 
       <footer class="footer">
-        <div class="container">
+        <div class="footer_container">
           <div class="footer-col">
             <h4>Our Info</h4>
             <ul>
@@ -209,13 +209,20 @@ const HomePage = () => {
             <h4>Contact Us</h4>
             <ul>
               <li>
-                <a href="#">071 900 1212 / 011 756 1122</a>
+                <a href="#">
+                  <i class="fas fa-phone"></i> 071 900 1212 / 011 756 1122
+                </a>
               </li>
               <li>
-                <a href="#">thehelpinghandhospital18@gmail.com</a>
+                <a href="#">
+                  <i class="far fa-envelope"></i>{" "}
+                  thehelpinghandhospital18@gmail.com
+                </a>
               </li>
               <li>
-                <a href="#">www.helpinghandlk.com</a>
+                <a href="#">
+                  <i class="fas fa-globe"></i> www.helpinghandlk.com
+                </a>
               </li>
             </ul>
           </div>
