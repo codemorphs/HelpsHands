@@ -1,16 +1,3 @@
-*{
-  font-family: 'Poppins';
-}
-body{
-  font-family: 'Poppins';
-}
-/* Home.css */
-
-/* General styles for the home page */
-/* Home.css */
-
-/* General styles for the home page */
-/* Home.css */
 /* General styles for the home page */
 .home-page {
   text-align: center;
@@ -20,18 +7,16 @@ body{
 .banner {
   position: relative;
   width: 100%;
-  height: 600px; /* Adjust the banner height as needed */
+  max-height: 600px; /* Use max-height for responsiveness */
   overflow: hidden;
-  opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
-  animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 
 .banner img {
   width: 100%;
-  height: 100%;
+  height: auto; /* Let the height adapt to the width for responsive images */
   object-fit: cover;
-  scroll-behavior: fixed;
-  
 }
 
 .banner::before {
@@ -41,21 +26,22 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 123, 255, 0.5); /* Semi-transparent blue background */
+  background: rgba(0, 123, 255, 0.5);
 }
 
 .banner-content {
   position: absolute;
   top: 50%;
-  left: 20%; /* Adjust this value as needed to center the content */
+  left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%);
   color: white;
-  text-align: left;
+  text-align: center; /* Center text */
+  padding: 20px;
 }
 
 .contact-button {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px 20px; /* Adjust padding for responsiveness */
   background-color: #fa4b1f;
   color: white;
   text-decoration: none;
@@ -64,11 +50,11 @@ body{
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-left: 0px; /* Add margin to the left to separate the button from text */
+  margin: 20px 0; /* Add margin for separation */
 }
 
 .banner h1 {
-  font-size: 40px;
+  font-size: 40px; /* Adjust font size for smaller screens */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -89,6 +75,30 @@ section {
   padding: 60px 0;
   min-height: 100vh;
 }
+
+/* Add Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .contact-button {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner h1 {
+    font-size: 20px; /* Adjust font size for even smaller screens */
+  }
+
+  .contact-button {
+    padding: 6px 12px; /* Adjust padding for even smaller screens */
+  }
+}
+
+
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
@@ -118,6 +128,7 @@ padding-bottom: 20px;
 position: relative;
 text-transform: capitalize;
 z-index: 1;
+font-size: 20px;
 }
 
 .site-heading h4::before {
@@ -665,4 +676,8 @@ background-color: #191e34; */
 
 #serivceHeadings{
   font-size: 16px;
+}
+
+#medicalServicesTopic{
+  margin: 20px;
 }
