@@ -5,7 +5,7 @@ import logo from '../../Assets/logo-removebg-preview.png';
 function Navbar() {
   return (
     <div className="navbarClass">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
           <img className="Logo" src={logo} alt="Logo" />
         </a>
@@ -18,6 +18,7 @@ function Navbar() {
             <a class="nav-item nav-link" href="#">About Us</a>
             <a class="nav-item nav-link" href="#">Services</a>
             <a class="nav-item nav-link" href="#">Contact Us</a>
+            <a class="nav-item nav-link mkAppointment" href="#">Make Appointement</a>
             {/* <button type="button" class="btn btn-primary my-2 my-sm-0">Contact Us</button> */}
           </div>
         </div>

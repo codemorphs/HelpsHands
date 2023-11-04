@@ -1,9 +1,13 @@
 .navbarClass{
-    padding-left: 200px;
+    padding-left: 10%;
 }
 
 .middleNavBar{
     gap: 50px;
+}
+
+.navbar-toggler{
+    margin-right: 10%;
 }
 
 .navbar-collapse{
@@ -18,6 +22,28 @@
 .Logo{
     width: 100px;
     height: 100px;
+}
+
+.contactUsBtn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.mkAppointment{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .contactUsBtn{
+        background-color: black;
+        display: none;
+    }
+
+    .mkAppointment{
+        display: block;
+    }
 }
 
 /* Reset some default styles */
