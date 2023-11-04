@@ -226,7 +226,7 @@ const HomePage = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div class="footer-col OnlineShop">
             <h4>Online Shop</h4>
             <ul>
               <li>
