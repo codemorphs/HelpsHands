@@ -298,12 +298,12 @@ const HomePage = () => {
                   Diploma in Education at University of Colombo, Sri Lanka{" "}
                   <br></br>Trained Teacher Certificate (primary education) at
                   National Institute of Education, Sri Lanka<br></br> Care
-                  Certificate at FLEXEBEE.LTD, United Kingdom <br></br>OTHM
-                  Level 03 Foundation Diploma in Health and Social Care Northern
-                  Campus, United Kingdom <br></br>Care Giver Course at Feel It
-                  Nursing Academy, Minuwangoda, Sri Lanka<br></br> Master of
-                  Education (Education and Development Psychology) at the
-                  University of Colombo, Sri Lanka.
+                  Certificate at FLEXEBEE.LTD, United Kingdom OTHM Level 03
+                  Foundation Diploma in Health and Social Care Northern Campus,
+                  United Kingdom Care Giver Course at Feel It Nursing Academy,
+                  Minuwangoda, Sri Lanka Master of Education (Education and
+                  Development Psychology) at the University of Colombo, Sri
+                  Lanka.
                 </p>
               </div>
               <div class="team_member">
@@ -418,7 +418,8 @@ const HomePage = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col OnlineShop">
+          
+          {/* <div class="footer-col OnlineShop">
             <h4>Online Shop</h4>
             <ul>
               <li>
@@ -434,7 +435,8 @@ const HomePage = () => {
                 <a href="#">All Versions</a>
               </li>
             </ul>
-          </div>
+          </div> */} 
+
           <div class="footer-col">
             <h4>Follow Us</h4>
             <div class="social-links">
