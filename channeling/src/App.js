@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <div className="pages">
           <Routes>
-            <Route path="/channeling" element={< Channeling/>} />
+            <Route path="/channeling" element={<Channeling/>} />
           </Routes>
         </div>
       </BrowserRouter>

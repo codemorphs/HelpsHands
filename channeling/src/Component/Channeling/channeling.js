@@ -4,7 +4,7 @@ import "./channeling.css";
 function Channeling() {
     return (
         <div>
-            hello
+            <h1>Make an Appointment</h1>
         </div>
     )
 }
