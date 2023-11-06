@@ -103,6 +103,7 @@ const HomePage = () => {
                     />
                   </div>
                   <br />
+                  <br/>
                   <h5 id="serivceHeadings">Behavioral Therapy</h5>
                   {/* <p>
                     Psychologists can work with psychiatrists to manage
@@ -119,9 +120,7 @@ const HomePage = () => {
                     <img src="training.jpeg" alt="Medication Management" />
                   </div>
                   <br />
-                  <h5 id="serivceHeadings">
-                    Training for Psychology Professionals
-                  </h5>
+                  <h5 id="serivceHeadings">Training for Psychology Professionals</h5>
                   {/* <p>
                     Psychologists can work with psychiatrists to manage
                     medication for mental health conditions. This may involve
