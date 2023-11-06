@@ -42,9 +42,9 @@ function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.google.com/maps?q=37.7749,-122.4194" target="_blank">
+                        <a href="https://www.google.com/maps?q=7.20436, 79.84291" target="_blank">
                         <i class="fas fa-map-marker"></i>
-                            No. 386/A/10, Kularathna Mawatha, <br></br>Akkarapanaha, Negombo, Sri Lanka
+                            No. 102/A Taladuwa Rd, Negombo
                         </a>
                     </li>
                     </ul>
