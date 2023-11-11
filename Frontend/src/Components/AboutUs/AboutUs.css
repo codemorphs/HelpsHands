@@ -20,7 +20,11 @@ body {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-  
+
+.card-wrapper:hover{
+    box-shadow: 10px 10px 5px #888888;
+}
+
   
   
 .card-wrapper .title {

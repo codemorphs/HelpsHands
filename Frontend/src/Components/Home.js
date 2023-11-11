@@ -103,7 +103,7 @@ const HomePage = () => {
                     />
                   </div>
                   <br />
-                  <br/>
+                  <br />
                   <h5 id="serivceHeadings">Behavioral Therapy</h5>
                   {/* <p>
                     Psychologists can work with psychiatrists to manage
@@ -120,7 +120,9 @@ const HomePage = () => {
                     <img src="training.jpeg" alt="Medication Management" />
                   </div>
                   <br />
-                  <h5 id="serivceHeadings">Training for Psychology Professionals</h5>
+                  <h5 id="serivceHeadings">
+                    Training for Psychology Professionals
+                  </h5>
                   {/* <p>
                     Psychologists can work with psychiatrists to manage
                     medication for mental health conditions. This may involve
@@ -185,198 +187,6 @@ const HomePage = () => {
                     </a>
                   </figure>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="wrapper">
-            <h1>Our Team</h1>
-            <div class="team">
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="director.jpg" alt="Team_image" />
-                </div>
-                <h3 id="personName">Thaaru Paranavithana</h3>
-                <p class="role">Director – Clinical Psychologist</p>
-                <p id="descPerson">
-                  BA Psycho (Spc) Kelaniya<br></br>
-                  MA( B,Psycho) Kelniya<br></br>
-                  MA(Sociology)Colombo<br></br> MSc (Applied & Clinical Psycho)
-                  NIBM
-                  <br></br>
-                  PGDC at university of colombo, Psychotherapy High National
-                  Diploma (MHF) <br></br>Member of Amarican psychological
-                  association <br></br>Former psychologist at Gampha base
-                  hospital & Kiribathgoda hospital<br></br> Visiting lecturer-
-                  National police academy & Government Teacher training college
-                  bolawalana, World Vision Lanka NGO<br></br> Director- The
-                  Helping Hand psychological hospital
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/jQj1I8E.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">Saman Athula Kumara</h3>
-                <p class="role">Manager</p>
-                <p id="descPerson">
-                  Sri Lanka Government Principle Service<br></br>
-                  Mahaweli College Of Education <br></br>
-                  The National Diploma in Teaching <br></br>
-                  Former principal with more than 20 years’ Experiences<br></br>
-                  Level II Capacity Development Program (Enhancement of
-                  Education Achievement) <br></br>
-                  Department of Education, Western Province Level I Capacity
-                  Development Program (Smart School Leaders). Department of
-                  Education, Western Province
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">Dr. B.M. Dayan Samarasekara</h3>
-                <p class="role">Medical Officer</p>
-                <p id="descPerson">
-                  MBBS (University of Sri Jayawardana Pura) <br></br>Post
-                  Graduate Diploma in Elderly Medicine, University of Colombo{" "}
-                  <br></br>
-                  Diploma in Counseling Psychology, University of Colombo
-                  <br></br>
-                  MRCGP (Int) (Part 1) <br></br>Orientation for Medical Officers
-                  of Health, National Institute of Health Sciences, 2009
-                  <br></br>
-                  Preventive sector and primary care<br></br> Worked as Medical
-                  officer of Health Kantale , Additional Medical officer of
-                  Health
-                  <br></br>
-                  Divulapitiya, Seeduwa, Minuwangoda<br></br> Curative sector
-                  and Tertiary care Senior House Officer (Medicine) (DGH
-                  Negombo)
-                  <br></br>
-                  Medical Officer, DGH Gampaha
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">K.R.M.Y. Harshani Kasthurirathna</h3>
-                <p class="role">Professional Psycho Therapist</p>
-                <p id="descPerson">
-                  Bachelor of Art (special) degree at university of Sri
-                  Jayawardharapura<br></br>
-                  Advanced Diploma In Psychotherapy at Mental Health Foundation
-                  <br></br>
-                  Master of Art in Buddhist Ayurveda Counselling at University
-                  of Kelaniya<br></br>
-                  Diploma Course in counseling at University of Sri
-                  Jayawadhanapura (Department of Psychiatry). Postgraduate
-                  Diploma at University of Colombo <br></br>
-                  Registered Counselor and member of Professional Psychological
-                  Counselors Association in Sri Lanka. (Sri Lanka foundation
-                  Institute)
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">Chithrani Priyangani De Silva</h3>
-                <p class="role">Educational Counsellor</p>
-                <p id="descPerson">
-                  Bachelor of Arts Degree at the University of Kelaniya, Sri
-                  Lanka
-                  <br></br>
-                  Postgraduate Diploma in Education Management at Faculty of
-                  Education Leadership Development and Management Meepe, Sri
-                  Lanka
-                  <br></br>
-                  The certificate course in educational research methodology,
-                  University of Colombo, Sri Lanka. <br></br>Postgraduate
-                  Diploma in Education at University of Colombo, Sri Lanka{" "}
-                  <br></br>Trained Teacher Certificate (primary education) at
-                  National Institute of Education, Sri Lanka<br></br> Care
-                  Certificate at FLEXEBEE.LTD, United Kingdom OTHM Level 03
-                  Foundation Diploma in Health and Social Care Northern Campus,
-                  United Kingdom Care Giver Course at Feel It Nursing Academy,
-                  Minuwangoda, Sri Lanka Master of Education (Education and
-                  Development Psychology) at the University of Colombo, Sri
-                  Lanka.
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">W.A.Shanika Madubhashini</h3>
-                <p class="role">Medical Officer</p>
-                <p id="descPerson">
-                  Bachelor of Arts (Special) Degree in Psychology<br></br>
-                  Diploma (Part I & II) in Counselling and Psychotherapy in the
-                  Institute of Psychological Studies, Colombo, Sri Lanka{" "}
-                  <br></br>
-                  Followed a Diploma in Applied Psychology and Counselling One
-                  Year Course with Clinical Practical conducted by the Life
-                  Center, Sri Lanka <br></br>Followed a Course in Practical
-                  Psychiatry and Clinical Psychology in the Life Center for
-                  Personality Development, Kohuwala, Sri Lanka<br></br> Clinical
-                  Training Programme Conducted by Sandeepani Home, Psychosocial
-                  Residential Care for Mentally Ill<br></br> Professional
-                  Psychologist at National Dangerous Drugs Control Board,
-                  Colombo, Sri Lanka.
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">M.G. Anuththara Indumini Mapage</h3>
-                <p class="role">Shadow Teacher</p>
-                <p id="descPerson">
-                  Diploma in Child Psychology<br></br> Diploma in Counselling
-                  Psychology <br></br>Higher National Diploma in Special Needs
-                  Education<br></br> Internship in The Helping Hand
-                  Psychological Hospital <br></br>Reading Bachelor of
-                  Information Technology at University of Colombo School of
-                  Computing
-                  <br></br>
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">Ruhaniya Roomy</h3>
-                <p class="role">Elder Care Assistant</p>
-                <p id="descPerson">
-                  Diploma in Counselling Psychology <br></br>Internship in The
-                  Helping Hand Psychological Hospital <br></br>As a teacher in
-                  Kids International School in Sri Lanka for 3 years.<br></br>{" "}
-                  Completed on Information Technology course in Esoft Metro
-                  Campus Seeduwa.
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">Amali Ureshani Silva</h3>
-                <p class="role">Special Needs Education Teacher </p>
-                <p id="descPerson">
-                  Diploma in Child Psychology (SLIT Campus)<br></br>
-                  Social Work Diploma (University of Japura)<br></br>
-                  Higher National Diploma in Special Needs Education (The
-                  Helping Hand Hospital)
-                </p>
-              </div>
-              <div class="team_member">
-                <div class="team_img">
-                  <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
-                </div>
-                <h3 id="personName">W.A. Isuru Naveen</h3>
-                <p class="role">Medical Billing Specialist</p>
-                <p id="descPerson"></p>
               </div>
             </div>
           </div>
