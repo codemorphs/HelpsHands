@@ -140,7 +140,7 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section class="about-section">
+        <section class="about-section" id="aboutXX">
           <div class="container">
             <div class="row">
               <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">

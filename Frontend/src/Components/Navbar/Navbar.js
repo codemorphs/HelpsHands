@@ -28,7 +28,7 @@ function Navbar() {
             <a class="nav-item nav-link" href="#service_section">
               Services
             </a>
-            <a class="nav-item nav-link" href="about-section">
+            <a class="nav-item nav-link" href="aboutXX">
               About Us
             </a>
             <a class="nav-item nav-link" href="#">
