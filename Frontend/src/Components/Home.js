@@ -16,12 +16,14 @@ const HomePage = () => {
       <header className="banner">
         <img src="/banner.jpg" alt="Banner" />
         <div className="banner-content">
-        <h1 className={showBanner ? "fade-in-down" : ""}>
+          <h1 className={showBanner ? "fade-in-down" : ""}>
             WELCOME TO THE <br />
             HELPING HAND
           </h1>
           <br />
-          <h2 className={showBanner ? "fade-in-down" : ""}>PSYCHOLOGICAL HOSPITAL</h2>
+          <h2 className={showBanner ? "fade-in-down" : ""}>
+            PSYCHOLOGICAL HOSPITAL
+          </h2>
           <br />
 
           <a href="#contact" className="contact-button">
@@ -30,13 +32,16 @@ const HomePage = () => {
         </div>
       </header>
 
-      <main>
+      <main id="service_section">
         <section class="we-offer-area text-center bg-gray">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
                 <div class="site-heading text-center">
-                <h2 id="medicalServicesTopic" className={showBanner ? "fade-in-up" : ""}>
+                  <h2
+                    id="medicalServicesTopic"
+                    className={showBanner ? "fade-in-up" : ""}
+                  >
                     Choose Our <span>Medical Services</span>
                   </h2>
                   <h4 className={showBanner ? "fade-in-up" : ""}>
