@@ -1,27 +1,30 @@
-import React, { useEffect, useState } from "react";
-
+import React, { useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./Home.css";
 
 const HomePage = () => {
-  const [showBanner, setShowBanner] = useState(false);
+  // const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
+    AOS.init();
     // Use a setTimeout to delay the appearance of the banner for the fade-in effect
-    setTimeout(() => {
-      setShowBanner(true);
-    }, 100);
+    // setTimeout(() => {
+    //   setShowBanner(true);
+    // }, 100);
   }, []);
   return (
     <div className="home-page">
       <header className="banner">
         <img src="/banner.jpg" alt="Banner" />
-        <div className="banner-content">
-          <h1 className={showBanner ? "fade-in-down" : ""}>
+        <div className="banner-content" >
+          <div data-aos="fade-down" data-aos-duration="1000">
+          <h1>
             WELCOME TO THE <br />
             HELPING HAND
           </h1>
           <br />
-          <h2 className={showBanner ? "fade-in-down" : ""}>
+          <h2>
             PSYCHOLOGICAL HOSPITAL
           </h2>
           <br />
@@ -29,6 +32,8 @@ const HomePage = () => {
           <a href="#contact" className="contact-button">
             Contact Us
           </a>
+          </div>
+          
         </div>
       </header>
 
@@ -38,33 +43,36 @@ const HomePage = () => {
             <div class="row">
               <div class="col-md-12">
                 <div class="site-heading text-center">
-                  <h2
-                    id="medicalServicesTopic"
-                    className={showBanner ? "fade-in-up" : ""}
-                  >
-                    Choose Our <span>Medical Services</span>
-                  </h2>
-                  <h4 className={showBanner ? "fade-in-up" : ""}>
-                    provide a wide range of mental health services to people of
-                    all ages and backgrounds
-                  </h4>
+                  <div data-aos="fade-up">
+                    <h2 id="medicalServicesTopic">
+                      Choose Our <span>Medical Services</span>
+                    </h2>
+                    <h4>
+                      provide a wide range of mental health services to people of
+                      all ages and backgrounds
+                    </h4>
+                  </div>
+                  
                 </div>
               </div>
             </div>
             <div class="row our-offer-items less-carousel">
               <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item">
-                  <div class="service-icon">
-                    <img src="residentialTreatement.png" alt="Therapy" />
+                <div data-aos="fade-right">
+                  <div class="item">
+                    <div class="service-icon">
+                      <img src="residentialTreatement.png" alt="Therapy" />
+                    </div>
+                    <br />
+                    <h5 id="serivceHeadings">Residential Treatment</h5>
+                    {/* <p>
+                      Psychologists can provide a variety of therapies to help
+                      people with mental health problems. Some common types of
+                      therapy include cognitive-behavioral therapy
+                    </p> */}
                   </div>
-                  <br />
-                  <h5 id="serivceHeadings">Residential Treatment</h5>
-                  {/* <p>
-                    Psychologists can provide a variety of therapies to help
-                    people with mental health problems. Some common types of
-                    therapy include cognitive-behavioral therapy
-                  </p> */}
                 </div>
+                
               </div>
 
               <div class="col-md-4 col-sm-6 equal-height">
