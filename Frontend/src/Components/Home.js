@@ -43,7 +43,7 @@ const HomePage = () => {
             <div class="row">
               <div class="col-md-12">
                 <div class="site-heading text-center">
-                  <div data-aos="fade-up">
+                  <div data-aos="fade-up" data-aos-duration="1500">
                     <h2 id="medicalServicesTopic">
                       Choose Our <span>Medical Services</span>
                     </h2>
@@ -58,7 +58,7 @@ const HomePage = () => {
             </div>
             <div class="row our-offer-items less-carousel">
               <div class="col-md-4 col-sm-6 equal-height">
-                <div data-aos="fade-right">
+                <div data-aos="fade-right" data-aos-duration="1500">
                   <div class="item">
                     <div class="service-icon">
                       <img src="residentialTreatement.png" alt="Therapy" />
@@ -76,73 +76,84 @@ const HomePage = () => {
               </div>
 
               <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item">
-                  <div class="service-icon">
-                    <img src="PsychiatricTreatment.jpeg" alt="Counseling" />
+                <div data-aos="fade-up" data-aos-duration="1500">
+                  <div class="item">
+                    <div class="service-icon">
+                      <img src="PsychiatricTreatment.jpeg" alt="Counseling" />
+                    </div>
+                    <br />
+                    <h5 id="serivceHeadings">Psychiatric Treatment</h5>
+                    {/* <p>
+                      Psychologists can also provide counseling to help people
+                      with a variety of personal and interpersonal challenges,
+                      such as grief and loss, relationship problems, and stress
+                      management.
+                    </p> */}
                   </div>
-                  <br />
-                  <h5 id="serivceHeadings">Psychiatric Treatment</h5>
-                  {/* <p>
-                    Psychologists can also provide counseling to help people
-                    with a variety of personal and interpersonal challenges,
-                    such as grief and loss, relationship problems, and stress
-                    management.
-                  </p> */}
+                </div>
+                
+              </div>
+
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div data-aos="fade-left" data-aos-duration="1500">
+                  <div class="item">
+                    <div class="service-icon">
+                      <img src="counselling.avif" alt="Medication Management" />
+                    </div>
+                    <br />
+                    <h5 id="serivceHeadings">Counseling</h5>
+                    {/* <p>
+                      Psychologists can work with psychiatrists to manage
+                      medication for mental health conditions. This may involve
+                      prescribing new medications, adjusting dosages, or
+                      monitoring side effects.
+                    </p> */}
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div data-aos="fade-right" data-aos-duration="1500">
+                  <div class="item">
+                    <div class="service-icon">
+                      <img
+                        src="BehavioralTherapy.jpeg"
+                        alt="Medication Management"
+                      />
+                    </div>
+                    <br />
+                    <br />
+                    <h5 id="serivceHeadings">Behavioral Therapy</h5>
+                    {/* <p>
+                      Psychologists can work with psychiatrists to manage
+                      medication for mental health conditions. This may involve
+                      prescribing new medications, adjusting dosages, or
+                      monitoring side effects.
+                    </p> */}
+                  </div>
                 </div>
               </div>
 
               <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item">
-                  <div class="service-icon">
-                    <img src="counselling.avif" alt="Medication Management" />
+                <div data-aos="fade-up" data-aos-duration="1500">
+                  <div class="item">
+                    <div class="service-icon">
+                      <img src="training.jpeg" alt="Medication Management" />
+                    </div>
+                    <br />
+                    <h5 id="serivceHeadings">
+                      Training for Psychology Professionals
+                    </h5>
+                    {/* <p>
+                      Psychologists can work with psychiatrists to manage
+                      medication for mental health conditions. This may involve
+                      prescribing new medications, adjusting dosages, or
+                      monitoring side effects.
+                    </p> */}
                   </div>
-                  <br />
-                  <h5 id="serivceHeadings">Counseling</h5>
-                  {/* <p>
-                    Psychologists can work with psychiatrists to manage
-                    medication for mental health conditions. This may involve
-                    prescribing new medications, adjusting dosages, or
-                    monitoring side effects.
-                  </p> */}
                 </div>
-              </div>
-
-              <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item">
-                  <div class="service-icon">
-                    <img
-                      src="BehavioralTherapy.jpeg"
-                      alt="Medication Management"
-                    />
-                  </div>
-                  <br />
-                  <br />
-                  <h5 id="serivceHeadings">Behavioral Therapy</h5>
-                  {/* <p>
-                    Psychologists can work with psychiatrists to manage
-                    medication for mental health conditions. This may involve
-                    prescribing new medications, adjusting dosages, or
-                    monitoring side effects.
-                  </p> */}
-                </div>
-              </div>
-
-              <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item">
-                  <div class="service-icon">
-                    <img src="training.jpeg" alt="Medication Management" />
-                  </div>
-                  <br />
-                  <h5 id="serivceHeadings">
-                    Training for Psychology Professionals
-                  </h5>
-                  {/* <p>
-                    Psychologists can work with psychiatrists to manage
-                    medication for mental health conditions. This may involve
-                    prescribing new medications, adjusting dosages, or
-                    monitoring side effects.
-                  </p> */}
-                </div>
+                
               </div>
             </div>
           </div>
@@ -185,7 +196,8 @@ const HomePage = () => {
               </div>
 
               <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column wow fadeInLeft">
+              <div data-aos="fade-right" data-aos-duration="1500">
+                <div class="inner-column wow">
                   <div class="author-desc">
                     <h2>Thaaru Paranavithana</h2>
                     <span>Clinical Psychologist</span>
@@ -200,6 +212,8 @@ const HomePage = () => {
                     </a>
                   </figure>
                 </div>
+              </div>
+                
               </div>
             </div>
           </div>
