@@ -1,8 +1,21 @@
 import React from "react";
+import { useRef } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/logo-removebg-preview.png";
 
 function Navbar() {
+  const services = useRef(null);
+  const about = useRef(null);
+  const contact = useRef(null);
+
+  const scrollToSection = (elementRef) =>{
+  window.scrollTo({
+    top: elementRef.current.offsetTop,
+    behavior: 'smooth'
+  })
+  }
+
+
   return (
     <div className="navbarClass">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -25,13 +38,13 @@ function Navbar() {
             <a class="nav-item nav-link" href="#">
               Home
             </a>
-            <a class="nav-item nav-link" href="#service_section">
+            <a onClick={() => scrollToSection(services)} class="nav-item nav-link" href="#service_section">
               Services
             </a>
-            <a class="nav-item nav-link" href="aboutXX">
+            <a onClick={() => scrollToSection(about)}class="nav-item nav-link" href="aboutXX">
               About Us
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a onClick={() => scrollToSection(contact)}class="nav-item nav-link" href="#">
               Contact Us
             </a>
             <a class="nav-item nav-link mkAppointment" href="#">

@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import "./Home.css";
 
 const HomePage = () => {
+
+  
   // const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
@@ -37,8 +39,8 @@ const HomePage = () => {
         </div>
       </header>
 
-      <main id="service_section">
-        <section class="we-offer-area text-center bg-gray">
+      <main id="service_section" >
+        <section class="we-offer-area text-center bg-gray" >
           <div class="container">
             <div class="row">
               <div class="col-md-12">

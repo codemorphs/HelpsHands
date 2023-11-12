@@ -2,14 +2,17 @@
     box-sizing: border-box;
   }
 body {
-    font-family: Arial, 'Poppins', sans-serif;
+    font-family:  'Poppins', sans-serif;
 }
 .card-wrapper {
+    
     width: 98%;
     height: 100%;
     display: block;
     position: relative;
     margin: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
     /* padding: 0 0 40px; */
     background-color: #f8f8f8;
     /*     background-image: radial-gradient(#e5e5e5 5%, transparent 6%), radial-gradient(#e5e5e5 5%, transparent 6%);
@@ -101,7 +104,7 @@ body {
     display: inline-block;
     position: relative;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 20px;
     font-size: 14px;
     vertical-align: top;
     transition: 300ms;

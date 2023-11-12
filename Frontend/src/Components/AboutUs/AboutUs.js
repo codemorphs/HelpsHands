@@ -58,7 +58,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="6596121.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -100,7 +100,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="6596121.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -135,7 +135,9 @@ function AboutUs() {
                     </div> */}
             </div>
           </div>
+        
         </div>
+  
         <div class="card-wrapper">
           <div class="title">
             <h2>K.R.M.Y. Harshani Kasthurirathna</h2>
@@ -145,7 +147,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="6596121.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -190,7 +192,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="6596121.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -239,7 +241,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="6596121.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -286,7 +288,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="Shadowteacher.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -326,7 +328,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="eldercare.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
@@ -366,7 +368,7 @@ function AboutUs() {
               <img
                 alt="Imagem de Carina Ponte, responsável pela área de Heranças em MSF Brasil"
                 class="person-image"
-                src="director.jpg"
+                src="specialneeds.png"
                 title="Imagem de Carina Ponte"
               />
             </div>
