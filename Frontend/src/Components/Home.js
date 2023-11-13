@@ -202,7 +202,7 @@ const HomePage = () => {
                 <div class="inner-column wow">
                   <div class="author-desc">
                     <h2>Thaaru Paranavithana</h2>
-                    <span>Clinical Psychologist</span>
+                    <span>Director & Chief Psychologist</span>
                   </div>
                   <figure class="image-1">
                     <a href="#" class="lightbox-image" data-fancybox="images">
