@@ -40,14 +40,10 @@ function Navbar() {
             <a class="nav-item nav-link" href="#service_section">
               Services
             </a>
-            <a class="nav-item nav-link" href="#aboutXX">
+            <a class="nav-item nav-link" href="#about_sec">
               About Us
             </a>
-            <a
-              onClick={() => scrollToSection(contact)}
-              class="nav-item nav-link"
-              href="#"
-            >
+            <a class="nav-item nav-link" href="#footer_sec">
               Contact Us
             </a>
             <a class="nav-item nav-link mkAppointment" href="#">

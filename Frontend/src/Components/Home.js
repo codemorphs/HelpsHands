@@ -160,7 +160,7 @@ const HomePage = () => {
           </section>
         </div>
 
-        <div id="aboutXX">
+        <div id="about_sec">
           <section class="about-section">
             <div class="container">
               <div class="row">
