@@ -8,13 +8,12 @@ function Navbar() {
   const about = useRef(null);
   const contact = useRef(null);
 
-  const scrollToSection = (elementRef) =>{
-  window.scrollTo({
-    top: elementRef.current.offsetTop,
-    behavior: 'smooth'
-  })
-  }
-
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="navbarClass">
@@ -38,13 +37,17 @@ function Navbar() {
             <a class="nav-item nav-link" href="#">
               Home
             </a>
-            <a onClick={() => scrollToSection(services)} class="nav-item nav-link" href="#service_section">
+            <a class="nav-item nav-link" href="#service_section">
               Services
             </a>
-            <a onClick={() => scrollToSection(about)}class="nav-item nav-link" href="aboutXX">
+            <a class="nav-item nav-link" href="#aboutXX">
               About Us
             </a>
-            <a onClick={() => scrollToSection(contact)}class="nav-item nav-link" href="#">
+            <a
+              onClick={() => scrollToSection(contact)}
+              class="nav-item nav-link"
+              href="#"
+            >
               Contact Us
             </a>
             <a class="nav-item nav-link mkAppointment" href="#">
