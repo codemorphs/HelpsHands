@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   // const [showBanner, setShowBanner] = useState(false);
@@ -28,7 +29,7 @@ const HomePage = () => {
             <h2>PSYCHOLOGICAL HOSPITAL</h2>
             <br />
 
-            <a href="#contact" className="contact-button">
+            <a href="#footer_sec" className="contact-button">
               Contact Us
             </a>
           </div>
@@ -189,10 +190,17 @@ const HomePage = () => {
                       care in a private and compassionate setting.
                     </div>
 
-                    <div class="btn-box">
+                    {/* <div class="btn-box">
                       <a href="#" class="theme-btn btn-style-one">
                         Learn More
                       </a>
+                    </div> */}
+                    <div>
+                      <Link to="/aboutus">
+                        <button class="theme-btn btn-style-one">
+                          LEARN MORE
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

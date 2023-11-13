@@ -43,17 +43,17 @@ function Navbar() {
             <a class="nav-item nav-link" href="#about_sec">
               About Us
             </a>
-            <a class="nav-item nav-link" href="#footer_sec">
-              Contact Us
+            <a class="nav-item nav-link" href="#aboutPage_sec">
+              Our Team
             </a>
-            <a class="nav-item nav-link mkAppointment" href="#">
+            <a class="nav-item nav-link mkAppointment" href="#footer_sec">
               Make Appointement
             </a>
             {/* <button type="button" class="btn btn-primary my-2 my-sm-0">Contact Us</button> */}
           </div>
         </div>
-        <button type="button" class="btn btn-primary my-2 my-sm-0 contactUsBtn">
-          Make Appointment
+        <button class="btn btn-primary my-2 my-sm-0 contactUsBtn">
+          <a href="#footer_sec"> Make Appointment</a>
         </button>
       </nav>
     </div>

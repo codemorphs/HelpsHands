@@ -3,7 +3,7 @@ import "./AboutUs.css";
 
 function AboutUs() {
   return (
-    <div className="AboutUs">
+    <div className="AboutUs" id="aboutPage_sec">
       <div>
         <div class="card-wrapper">
           <div class="title">
@@ -135,9 +135,8 @@ function AboutUs() {
                     </div> */}
             </div>
           </div>
-        
         </div>
-  
+
         <div class="card-wrapper">
           <div class="title">
             <h2>K.R.M.Y. Harshani Kasthurirathna</h2>
