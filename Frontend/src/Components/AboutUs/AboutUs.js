@@ -20,10 +20,10 @@ function AboutUs() {
             </div>
             <div class="information">
               <div class="person-name">
-                <p id="postID">Director – Clinical Psychologist</p>
+                <p id="postID">Director & Chief Psychologist</p>
               </div>
               <div class="job-description">
-                BA Psycho (Spc) Kelaniya <br></br>MA ( B,Psycho) Kelniya
+                BA Psycho (Spc) Kelaniya <br></br>MA ( B,Psycho) Kelaniya
                 <br></br> MA (Sociology) Colombo<br></br> MSc (Applied &
                 Clinical Psycho) NIBM <br></br>PGDC at university of Colombo,
                 Psychotherapy High National Diploma (MHF)<br></br> Member of
@@ -69,7 +69,7 @@ function AboutUs() {
               <div class="job-description">
                 SRI LANKA GOVERNMENT PRICIPLE SERVICE<br></br> Mahaweli College
                 Of Education<br></br> The National Diploma in Teaching <br></br>
-                Former principal with more than 20 years’ experiences<br></br>{" "}
+                Former principal with more than 20 year's experiences<br></br>{" "}
                 Level II Capacity Development Program (Enhancement of Education
                 Achievement)<br></br> Department of Education, Western Province
                 Level I Capacity Development Program (Smart School Leaders).
