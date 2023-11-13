@@ -6,11 +6,11 @@ body {
 }
 .card-wrapper {
     
-    width: 98%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     display: block;
     position: relative;
-    margin: 10px;
+    margin: 90px;
     padding: 20px;
     margin-bottom: 50px;
     /* padding: 0 0 40px; */
@@ -44,7 +44,7 @@ body {
     color: black;
     /* background-color: #e00; */
     transition: 300ms;
-    margin-left: 70px;
+    margin-left: 120px;
 }
   /* .card-wrapper .title:after {
     content: " ";
@@ -62,7 +62,7 @@ body {
     width: 100%;
     display: block;
     position: relative;
-    padding: 10px 30px;
+    padding: 10px 110px;
     margin: 0 auto;
     font-size: 0;
 }
