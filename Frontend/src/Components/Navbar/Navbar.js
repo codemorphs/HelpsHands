@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <div className="navbarClass">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <img className="Logo" src={logo} alt="Logo" />
         </a>
         <button
@@ -35,7 +35,7 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav middleNavBar">
-            <a class="nav-item nav-link" href="#">
+            <a class="nav-item nav-link" href="/">
               Home
             </a>
             <a class="nav-item nav-link" href="#service_section">
@@ -44,7 +44,7 @@ function Navbar() {
             <a class="nav-item nav-link" href="#about_sec">
               About Us
             </a>
-            <a class="nav-item nav-link" href="#aboutPage_sec">
+            <a class="nav-item nav-link" href="/aboutus">
               Our Team
             </a>
 

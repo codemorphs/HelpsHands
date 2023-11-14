@@ -88,3 +88,14 @@
     }
 }
 
+.copyright {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsive styles for smaller screens */
+    .copyright {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }

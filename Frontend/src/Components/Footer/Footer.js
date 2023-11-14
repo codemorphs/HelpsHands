@@ -70,6 +70,9 @@ function Footer() {
               </a>
             </div>
           </div>
+          <div className="copyright">
+          <p>&copy; 2023 Helping Hands . All rights reserved. Powered by Code Morphs</p>
+        </div>
         </div>
       </footer>
     </div>
