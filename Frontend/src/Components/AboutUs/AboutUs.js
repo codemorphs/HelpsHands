@@ -51,7 +51,7 @@ function AboutUs() {
         </div>
         <div class="card-wrapper">
           <div class="title">
-            <h2>SAMAN ATHULA KUMARA</h2>
+            <h2>Saman Athula Kumara</h2>
           </div>
           <div class="img-and-name">
             <div class="image-place">
@@ -184,7 +184,7 @@ function AboutUs() {
         </div>
         <div class="card-wrapper">
           <div class="title">
-            <h2>CHITHRANI PRIYANGANI DE SILVA</h2>
+            <h2> Chitharani Priyangani De Silva</h2>
           </div>
           <div class="img-and-name">
             <div class="image-place">
@@ -233,7 +233,7 @@ function AboutUs() {
         </div>
         <div class="card-wrapper">
           <div class="title">
-            <h2>W.A.SHANIKA MADUBHASHINI</h2>
+            <h2> W.A.Shanika Madubhashini</h2>
           </div>
           <div class="img-and-name">
             <div class="image-place">
