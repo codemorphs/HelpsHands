@@ -89,9 +89,19 @@
 }
 
 .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
-  }
+}
+
+/* .copyright p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+} */
   
   @media (max-width: 768px) {
     /* Responsive styles for smaller screens */
