@@ -2,7 +2,6 @@ import React from "react";
 import { useRef } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/logo-removebg-preview.png";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const services = useRef(null);
@@ -48,14 +47,14 @@ function Navbar() {
               Our Team
             </a>
 
-            <a class="nav-item nav-link mkAppointment" href="#footer_sec">
+            <a class="nav-item nav-link mkAppointment" href="/main">
               Make Appointement
             </a>
             {/* <button type="button" class="btn btn-primary my-2 my-sm-0">Contact Us</button> */}
           </div>
         </div>
         <button class="btn btn-primary my-2 my-sm-0 contactUsBtn">
-          <a href="#footer_sec"> Make Appointment</a>
+          <a href="/main"> Make Appointment</a>
         </button>
       </nav>
     </div>
