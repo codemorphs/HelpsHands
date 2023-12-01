@@ -1,23 +1,20 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const loginBackend = require('./loginbackend');
+const sqlite3 = require('sqlite3').verbose();
+
 const app = express();
+const port = 3010;
 
 app.use(cors());
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 3001;
+const db = new sqlite3.Database('databases/HelpHands.db');
 
-app.post('/login', (req, res)=>{
-    const {email, password} = req.body;
+// Login endpoint
+app.post('/login', loginBackend(db));
 
-    if(email === 'test@gmail.com' && password === 'test'){
-        res.json({success: true, message: 'Login success'});
-    }else{
-        res.json({success: false, message: 'Login failed'});
-    }
-});
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
