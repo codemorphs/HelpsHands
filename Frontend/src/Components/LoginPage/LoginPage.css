@@ -1,13 +1,13 @@
-body{
-    background-image: url('../../../Assets/loginbg.png');
-    background-size: cover;
+/* body{ */
+    /* background-image: url('../../../Assets/loginbg.png'); */
+    /* background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
-.container {
+/* .container {
     display: grid;
-    place-items: center; /* Center both horizontally and vertically */
-    height: 100vh; /* Set the container height to the full viewport height */
+    place-items: center; 
+    height: 100vh; 
 }
 
 .row {
@@ -56,4 +56,4 @@ body{
     background-color: rgba(9, 50, 59, 0.72);;
     color: white;
     cursor: pointer;
-}
+} */
