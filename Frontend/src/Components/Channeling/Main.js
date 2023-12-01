@@ -1,11 +1,27 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import { FaGoogle } from 'react-icons/fa'; // Import the Google icon
 import './Main.css'; // Import your CSS file
+import axios from 'axios';
 
 const Main = () => {
   const doctorsSectionRef = useRef(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [doctor, setDoctors] =  useState([]);
+
+  useEffect(() => {
+    const fetchDoctors = async () => {
+      try{
+        const response = await axios.get('http://localhost:3010/doctorDetails');
+        console.log("data size", response.data.doctorDetails.length)
+        console.log("doctor details ", response);
+      }catch (error){
+        console.error('Error fetching doctors: ', error);
+      }
+    };
+
+    fetchDoctors();
+  }, []);
 
   const scrollToDoctorsSection = () => {
     doctorsSectionRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -30,9 +46,9 @@ const Main = () => {
       id: 1,
       name: 'Dr. Thaaru Paranavithana',
       specialty: 'Chief Psychologist',
-      image: '/director.jpg', // Update the image path
+      image: '/director.jpg', 
     },
-    // Add more doctors as needed
+    
   ];
 
   return (
