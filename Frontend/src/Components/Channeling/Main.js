@@ -7,15 +7,27 @@ import axios from 'axios';
 const Main = () => {
   const doctorsSectionRef = useRef(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  // const [doctor, setDoctors] =  useState([]);
+  const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
     const fetchDoctors = async () => {
-      try{
+      try {
         const response = await axios.get('http://localhost:3010/doctorDetails');
-        console.log("data size", response.data.doctorDetails.length)
+        console.log("data size", response.data.doctorDetails.length);
         console.log("doctor details ", response);
-      }catch (error){
+
+        const doctorsArray = response.data.doctorDetails.map((doctor) => ({
+          id: doctor.DoctorID,
+          firstname: doctor.FirstName,
+          lastName: doctor.LastName,
+          fullName: doctor.FirstName + " " +doctor.LastName,
+          specialty: doctor.Specialization,
+          image: doctor.image_location,
+        }));
+
+        setDoctors(doctorsArray);
+
+      } catch (error) {
         console.error('Error fetching doctors: ', error);
       }
     };
@@ -36,20 +48,18 @@ const Main = () => {
   };
 
   const handleGetAppointment = () => {
-    // Perform actions when the "Get an Appointment" button is clicked
-    // For example, open the modal
     openModal();
   };
 
-  const doctors = [
-    {
-      id: 1,
-      name: 'Dr. Thaaru Paranavithana',
-      specialty: 'Chief Psychologist',
-      image: '/director.jpg', 
-    },
+  // const doctors = [
+  //   {
+  //     id: 1,
+  //     name: 'Dr. Thaaru Paranavithana',
+  //     specialty: 'Chief Psychologist',
+  //     image: '/director.jpg', 
+  //   },
     
-  ];
+  // ];
 
   return (
     <div>
@@ -68,7 +78,24 @@ const Main = () => {
           </div>
         </div>
       </div>
+
       <div className="doctors-section" ref={doctorsSectionRef}>
+        <h2>Meet Our Doctors</h2>
+        <div className="doctor-cards">
+          {doctors.map((doctor) => (
+            <div className="doctor-card" key={doctor.id}>
+              <img src={doctor.image} alt={doctor.fullName} className="doctor-image" />
+              <h3>{doctor.fullName}</h3>
+              <p>{doctor.specialty}</p>
+              <button className="appointment-button" onClick={handleGetAppointment}>
+                Get an Appointment
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* <div className="doctors-section" ref={doctorsSectionRef}>
         <h2>Meet Our Doctors</h2>
         <div className="doctor-cards">
           {doctors.map((doctor) => (
@@ -82,7 +109,8 @@ const Main = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
+
       <Dialog open={isModalOpen} onClose={closeModal}>
         <DialogTitle>Login/Sign Up</DialogTitle>
         <DialogContent>

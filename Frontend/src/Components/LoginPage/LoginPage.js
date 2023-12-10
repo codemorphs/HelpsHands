@@ -17,7 +17,9 @@ function LoginPage(){
         });
 
         if (response.data.success) {
-            alert('Login successful');
+          // <a class="nav-item nav-link mkAppointment" href="/main"></a>
+            // alert('Login successful');
+            window.location.href = '/session';
         } else {
             alert('Login failed. Please check your credentials.');
         }
