@@ -1,11 +1,16 @@
 // Session.js
 
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import './Session.css';
+import CryptoJS from 'crypto-js';
+import axios from 'axios';
+
+const secretKey = 'codeMorphs';
 
 const Session = () => {
   const navigate = useNavigate();
+  // const { userId } = useParams();
   const days = ['Monday', 'Tuesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   const startTime = '15:30';
   const sundayStartTime = '09:00';
@@ -14,6 +19,37 @@ const Session = () => {
   const sundayMaxPatients = 6;
 
   const [selectedDay, setSelectedDay] = useState('Monday');
+
+  useEffect(() => {
+    const currentUrl = window.location.href;
+
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const userId = urlSearchParams.get('userId');
+
+    const decryptedUserID = decryptUserID(userId);
+    console.log("IsNON ", isNaN(decryptedUserID))
+    if(!isNaN(decryptedUserID)){
+      getPatienDetails(decryptedUserID);
+    }
+    
+  }, []);
+
+  const getPatienDetails = async (userId) => {
+    try{
+      const response = await axios.post('http://localhost:3010/patientDetails', {
+        userId,
+      });
+      console.log("response", response);
+      if(response.data.success){
+        console.log("patient details ", response);
+      }else{
+        console.log("patient details wrong ");
+      }
+
+    } catch(error){
+      console.error('Errorof Patient data', error);
+    }
+  }
 
   const [sessions, setSessions] = useState(
     days.map((day) => {
@@ -79,6 +115,13 @@ const Session = () => {
     navigate('/checkout');
   }
 
+  const decryptUserID = (ciphertext) => {
+    const bytes = CryptoJS.AES.decrypt(ciphertext, secretKey);
+    const decryptedUserID = bytes.toString(CryptoJS.enc.Utf8);
+    return decryptedUserID;
+};
+
+
   return (
     <div className="session-container">
       <div className="day-selector">
@@ -96,6 +139,7 @@ const Session = () => {
       <div className="session-schedule">{renderSessions(selectedDay)}</div>
     </div>
   );
+
 };
 
 export default Session;
