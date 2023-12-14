@@ -116,11 +116,16 @@ const Session = () => {
   }
 
   const decryptUserID = (ciphertext) => {
-    const bytes = CryptoJS.AES.decrypt(ciphertext, secretKey);
-    const decryptedUserID = bytes.toString(CryptoJS.enc.Utf8);
-    return decryptedUserID;
-};
-
+    try {
+      const bytes = CryptoJS.AES.decrypt(ciphertext, secretKey);
+      const decryptedUserID = bytes.toString(CryptoJS.enc.Utf8);
+      return decryptedUserID || null;
+    } catch (error) {
+      console.error('Error decrypting user ID', error);
+      return null;
+    }
+  };
+  
 
   return (
     <div className="session-container">
