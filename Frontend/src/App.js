@@ -10,11 +10,12 @@ import Main from "./Components/Channeling/Main";
 import Signup from "./Components/Channeling/Signup";
 import Session from "./Components/Channeling/Session";
 import Checkout from "./Components/Channeling/Checkout";
-import AddAppin from "./Components/Admin/AddAppin";
+import AddAppin from "./Components/User/AddAppin";
 import Login from "./Components/Admin/Login";
 import RegistrationForm from './Components/Admin/RegistrationForm';
 import AddDoctor from './Components/Admin/AddDoctor';
 import AllDoctor from './Components/Admin/AllDoctor';
+import AllDoctorUser from './Components/User/AllDoctorUser'
 
 
 
@@ -39,6 +40,8 @@ function App() {
             <Route path="/add-doctor" element={<AddDoctor />} />
            <Route path="/all-doctor" element={<AllDoctor />} />
             <Route path="/add-appin" element={<AddAppin />} />
+            <Route path="/all-doc-user" element={<AllDoctorUser />} />
+
           </Routes>
 
         </div>
