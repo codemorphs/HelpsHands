@@ -6,10 +6,19 @@ import Footer from "./Components/Footer/Footer";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Main from "./Components/Channeling/Main";
 // import Login from "./Components/Channeling/Login";
-import Login from "./Components/LoginPage/LoginPage";
+// import Login from "./Components/LoginPage/LoginPage";
 import Signup from "./Components/Channeling/Signup";
 import Session from "./Components/Channeling/Session";
 import Checkout from "./Components/Channeling/Checkout";
+import AddAppin from "./Components/Admin/AddAppin";
+import Login from "./Components/Admin/Login";
+import RegistrationForm from './Components/Admin/RegistrationForm';
+import AddDoctor from './Components/Admin/AddDoctor';
+import AllDoctor from './Components/Admin/AllDoctor';
+
+
+
+
 
 function App() {
   return (
@@ -21,10 +30,15 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/main" element={<Main />} />
-            <Route path="/login" element={<Login />} />
+            {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/signup" element={<Signup />} />
             <Route path="/session" element={<Session />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<RegistrationForm />} />
+            <Route path="/add-doctor" element={<AddDoctor />} />
+           <Route path="/all-doctor" element={<AllDoctor />} />
+            <Route path="/add-appin" element={<AddAppin />} />
           </Routes>
 
         </div>
